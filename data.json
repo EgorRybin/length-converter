@@ -1,0 +1,11 @@
+{
+  "units": [
+    { "title": "m", "value": 1 },
+    { "title": "mm", "value": 0.001 },
+    { "title": "sm", "value": 0.01 },
+    { "title": "km", "value": 1000 },
+    { "title": "yd", "value": 1.09 },
+    { "title": "in", "value": 0.0254 },
+    { "title": "ft", "value": 0.3048 }
+  ]
+}
