@@ -17,6 +17,25 @@ body {
 .form {
   padding: 16px 0;
 }
+
+@media (max-width: 679px){
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+.label {
+}
+
+@media (max-width: 679px){
+.label {
+  margin-bottom: 6px;
+}
+}
+
+
 .input-text {
   border: none;
   height: 32px;
@@ -24,12 +43,25 @@ body {
   margin: 0 8px;
   border-radius: 3px;
 }
+
+@media (max-width: 679px){
+.input-text {
+  margin:0 0 6px 0;
+}
+}
 .size {
   border: none;
   height: 32px;
   padding: 0 16px;
   margin: 0 8px;
   border-radius: 3px;
+}
+
+@media (max-width: 679px){
+.size {
+  margin: 0 0 0 102px;
+}
+
 }
 .convert_to {
   border: none;
@@ -39,6 +71,11 @@ body {
   border-radius: 3px;
 }
 
+@media (max-width: 679px){
+.convert_to {
+   margin: 0 0 0 58px;
+}
+}
 .button {
   border: none;
   height: 32px;
@@ -48,6 +85,13 @@ body {
   border-radius: 3px;
   transition: 250ms;
 }
+
+@media (max-width: 679px){
+.button {
+  margin: 0;
+}
+}
+
 .button:hover {
   background-color: rgb(132, 132, 206);
 }
